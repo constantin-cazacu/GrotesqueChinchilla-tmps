@@ -73,7 +73,7 @@ public final class Hero {
 
         public Builder(String name, HeroClass heroClass) {
             if (name == null || heroClass == null) {
-                throw new IllegalArgumentException("profession and name cannot be null");
+                throw new IllegalArgumentException("class and name cannot be null");
             }
             this.name = name;
             this.heroClass = heroClass;
