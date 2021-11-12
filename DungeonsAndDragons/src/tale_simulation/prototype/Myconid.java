@@ -1,6 +1,8 @@
 package tale_simulation.prototype;
 
-public class Myconid extends Plant{
+import tale_simulation.prototype.abstractions.Plant;
+
+public class Myconid extends Plant {
 
     public Myconid() {}
 

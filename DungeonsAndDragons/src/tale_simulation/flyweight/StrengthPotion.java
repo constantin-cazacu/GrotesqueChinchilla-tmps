@@ -1,5 +1,7 @@
 package tale_simulation.flyweight;
 
+import tale_simulation.flyweight.interfaces.Potion;
+
 public class StrengthPotion implements Potion {
 
     @Override

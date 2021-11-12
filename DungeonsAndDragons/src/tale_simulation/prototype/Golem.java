@@ -1,5 +1,7 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.Construct;
+
 public class Golem extends Construct {
 
     public Golem() {}

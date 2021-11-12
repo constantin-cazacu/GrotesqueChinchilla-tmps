@@ -1,5 +1,7 @@
 package tale_simulation.adapter;
 
+import tale_simulation.adapter.intrfaces.Cavalry;
+
 public class HeavyCavalry implements Cavalry {
 
     private HeavyKnight heavyKnight;

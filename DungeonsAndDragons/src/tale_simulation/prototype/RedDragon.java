@@ -1,6 +1,8 @@
 package tale_simulation.prototype;
 
-public class RedDragon extends Dragon{
+import tale_simulation.prototype.abstractions.Dragon;
+
+public class RedDragon extends Dragon {
 
     public RedDragon() {}
 

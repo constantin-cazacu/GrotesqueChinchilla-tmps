@@ -1,5 +1,7 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.Fiend;
+
 public class Demon extends Fiend {
 
     public Demon() {}

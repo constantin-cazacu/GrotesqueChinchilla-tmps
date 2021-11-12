@@ -1,5 +1,7 @@
 package tale_simulation.composite;
 
+import tale_simulation.composite.abstractions.LetterComposite;
+
 import java.util.List;
 
 public class Sentence extends LetterComposite {

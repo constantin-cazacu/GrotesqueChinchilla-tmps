@@ -1,5 +1,7 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.Elemental;
+
 public class Genie extends Elemental {
 
     public Genie() {}

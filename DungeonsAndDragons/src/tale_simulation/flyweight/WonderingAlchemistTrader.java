@@ -1,5 +1,8 @@
 package tale_simulation.flyweight;
 
+import tale_simulation.flyweight.enums.PotionType;
+import tale_simulation.flyweight.interfaces.Potion;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

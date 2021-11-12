@@ -1,5 +1,7 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.Giant;
+
 public class Troll extends Giant {
 
     public Troll() {}

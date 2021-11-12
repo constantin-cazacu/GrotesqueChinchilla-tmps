@@ -1,5 +1,7 @@
 package tale_simulation.builder;
 
+import tale_simulation.builder.enums.*;
+
 public final class Hero {
 
     private final String name;
