@@ -2,6 +2,8 @@ package tale_simulation;
 
 import tale_simulation.abstract_factory.NilfgaardKingdomFactory;
 import tale_simulation.abstract_factory.RedaniaKingdomFactory;
+import tale_simulation.adapter.HeavyCavalry;
+import tale_simulation.adapter.HorseRider;
 import tale_simulation.builder.*;
 import tale_simulation.composite.LetterComposite;
 import tale_simulation.composite.Messenger;
@@ -37,6 +39,18 @@ public class FantasyWorld {
 
         LetterComposite nilfgaardMessage = new Messenger().messageFromNilfgaard();
         nilfgaardMessage.print();
+
+        System.out.println("\n");
+
+        System.out.println("***---------***");
+
+        System.out.println("During a battle...");
+
+        HorseRider horseRider = new HorseRider(new HeavyCavalry());
+        horseRider.gallop();
+        horseRider.charge();
+
+        System.out.println("***---------***");
 
         System.out.println("\n");
 
