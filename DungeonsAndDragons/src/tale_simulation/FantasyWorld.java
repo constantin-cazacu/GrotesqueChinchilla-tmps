@@ -5,6 +5,7 @@ import tale_simulation.abstract_factory.RedaniaKingdomFactory;
 import tale_simulation.builder.*;
 import tale_simulation.composite.LetterComposite;
 import tale_simulation.composite.Messenger;
+import tale_simulation.flyweight.WonderingAlchemistTrader;
 import tale_simulation.prototype.*;
 
 public class FantasyWorld {
@@ -52,6 +53,12 @@ public class FantasyWorld {
                 .heroArmor(Armor.BANDED_MAIL).heroWeapon(Weapon.GREAT_SWORD)
                 .build();
         System.out.println(ranger);
+
+        System.out.println("***---------***");
+
+        System.out.println("A mysterious cart is approaching, Ah! an alchemist, let us see what has he got in his stock...");
+        WonderingAlchemistTrader wonderingAlchemistTrader = new WonderingAlchemistTrader();
+        wonderingAlchemistTrader.count();
 
         System.out.println("***---------***");
 
