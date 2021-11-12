@@ -1,6 +1,8 @@
 package tale_simulation.abstract_factory;
 
-public class AedirnianArmy implements  Army {
+import tale_simulation.abstract_factory.interfaces.Army;
+
+public class AedirnianArmy implements Army {
 
     static final String DESCRIPTION = "This is the Aedirnian Army!";
 

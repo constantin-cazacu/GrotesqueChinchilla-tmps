@@ -1,5 +1,7 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.Monstrosity;
+
 public class Owlbear extends Monstrosity {
 
     public Owlbear() {}

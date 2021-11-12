@@ -1,6 +1,8 @@
 package tale_simulation.prototype;
 
-public class GelatinousCube extends Oooze{
+import tale_simulation.prototype.abstractions.Oooze;
+
+public class GelatinousCube extends Oooze {
 
     public GelatinousCube() {}
 

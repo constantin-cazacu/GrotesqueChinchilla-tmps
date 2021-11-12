@@ -1,5 +1,8 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.*;
+import tale_simulation.prototype.interfaces.CreatureFactory;
+
 public class CreatureFactoryImplement implements CreatureFactory {
 
     private Aberration aberration;

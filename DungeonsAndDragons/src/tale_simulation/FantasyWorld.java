@@ -1,14 +1,17 @@
 package tale_simulation;
 
-import tale_simulation.abstract_factory.NilfgaardKingdomFactory;
-import tale_simulation.abstract_factory.RedaniaKingdomFactory;
+import tale_simulation.abstract_factory.factories.NilfgaardKingdomFactory;
+import tale_simulation.abstract_factory.factories.RedaniaKingdomFactory;
 import tale_simulation.adapter.HeavyCavalry;
 import tale_simulation.adapter.HorseRider;
 import tale_simulation.builder.*;
-import tale_simulation.composite.LetterComposite;
+import tale_simulation.builder.enums.*;
+import tale_simulation.composite.abstractions.LetterComposite;
 import tale_simulation.composite.Messenger;
 import tale_simulation.flyweight.WonderingAlchemistTrader;
 import tale_simulation.prototype.*;
+import tale_simulation.prototype.abstractions.*;
+import tale_simulation.prototype.interfaces.CreatureFactory;
 
 public class FantasyWorld {
     public static void main(String[] args) {

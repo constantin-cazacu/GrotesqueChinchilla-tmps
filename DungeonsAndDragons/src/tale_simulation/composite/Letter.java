@@ -1,5 +1,7 @@
 package tale_simulation.composite;
 
+import tale_simulation.composite.abstractions.LetterComposite;
+
 public class Letter extends LetterComposite {
 
     private char c;

@@ -1,5 +1,7 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.Undead;
+
 public class Vampire extends Undead {
 
     public Vampire() {}

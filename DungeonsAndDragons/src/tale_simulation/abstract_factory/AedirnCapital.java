@@ -1,6 +1,8 @@
 package tale_simulation.abstract_factory;
 
-public class AedirnCapital implements Capital{
+import tale_simulation.abstract_factory.interfaces.Capital;
+
+public class AedirnCapital implements Capital {
 
     static final String DESCRIPTION = "This is Vengerberg, the capital of Aedirn!";
 

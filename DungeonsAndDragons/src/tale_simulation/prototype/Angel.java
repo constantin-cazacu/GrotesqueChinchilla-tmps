@@ -1,5 +1,7 @@
 package tale_simulation.prototype;
 
+import tale_simulation.prototype.abstractions.Celestial;
+
 public class Angel extends Celestial {
 
     public Angel() {}
