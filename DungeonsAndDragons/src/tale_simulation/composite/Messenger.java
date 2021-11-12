@@ -71,6 +71,14 @@ public class Messenger {
 
         List<Word> words = new ArrayList<>();
 
+//        In risk there is honor
+
+        words.add(new Word(Arrays.asList(new Letter('I'), new Letter('n'))));
+        words.add(new Word(Arrays.asList(new Letter('r'), new Letter('i'), new Letter('s'), new Letter('k'))));
+        words.add(new Word(Arrays.asList(new Letter('t'), new Letter('h'), new Letter('e'), new Letter('r'), new Letter('e'))));
+        words.add(new Word(Arrays.asList(new Letter('i'), new Letter('s'))));
+        words.add(new Word(Arrays.asList(new Letter('h'), new Letter('o'), new Letter('n'), new Letter('o'), new Letter('r'))));
+
         return new Sentence(words);
 
     }
@@ -103,6 +111,12 @@ public class Messenger {
 
         List<Word> words = new ArrayList<>();
 
+//        For Skellige's glory
+
+        words.add(new Word(Arrays.asList(new Letter('F'), new Letter('o'), new Letter('r'))));
+        words.add(new Word(Arrays.asList(new Letter('S'), new Letter('k'), new Letter('e'), new Letter('l'), new Letter('l'), new Letter('i'), new Letter('g'), new Letter('e'), new Letter('\''), new Letter('s'))));
+        words.add(new Word(Arrays.asList(new Letter('g'), new Letter('l'), new Letter('o'), new Letter('r'), new Letter('y'))));
+
         return new Sentence(words);
 
     }
@@ -110,6 +124,22 @@ public class Messenger {
     LetterComposite messageFromTemeria() {
 
         List<Word> words = new ArrayList<>();
+
+//        For Temeria, men! To die for Temeria is to die a good death
+
+        words.add(new Word(Arrays.asList(new Letter('F'), new Letter('o'), new Letter('r'))));
+        words.add(new Word(Arrays.asList(new Letter('T'), new Letter('e'), new Letter('m'), new Letter('e'), new Letter('r'), new Letter('i'), new Letter('a'), new Letter(','))));
+        words.add(new Word(Arrays.asList(new Letter('m'), new Letter('e'), new Letter('n'), new Letter('!'))));
+        words.add(new Word(Arrays.asList(new Letter('T'), new Letter('o'))));
+        words.add(new Word(Arrays.asList(new Letter('d'), new Letter('i'), new Letter('e'))));
+        words.add(new Word(Arrays.asList(new Letter('f'), new Letter('o'), new Letter('r'))));
+        words.add(new Word(Arrays.asList(new Letter('T'), new Letter('e'), new Letter('m'), new Letter('e'), new Letter('r'), new Letter('i'), new Letter('a'))));
+        words.add(new Word(Arrays.asList(new Letter('i'), new Letter('s'))));
+        words.add(new Word(Arrays.asList(new Letter('t'), new Letter('o'))));
+        words.add(new Word(Arrays.asList(new Letter('d'), new Letter('i'), new Letter('e'))));
+        words.add(new Word(Arrays.asList(new Letter('a'))));
+        words.add(new Word(Arrays.asList(new Letter('g'), new Letter('o'), new Letter('o'), new Letter('d'))));
+        words.add(new Word(Arrays.asList(new Letter('d'), new Letter('e'), new Letter('i'), new Letter('t'), new Letter('h'))));
 
         return new Sentence(words);
 
