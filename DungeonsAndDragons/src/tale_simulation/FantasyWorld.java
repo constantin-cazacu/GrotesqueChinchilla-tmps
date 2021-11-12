@@ -3,6 +3,8 @@ package tale_simulation;
 import tale_simulation.abstract_factory.NilfgaardKingdomFactory;
 import tale_simulation.abstract_factory.RedaniaKingdomFactory;
 import tale_simulation.builder.*;
+import tale_simulation.composite.LetterComposite;
+import tale_simulation.composite.Messenger;
 import tale_simulation.prototype.*;
 
 public class FantasyWorld {
@@ -18,12 +20,24 @@ public class FantasyWorld {
         var army2 = kingdom2.createArmy();
 
         System.out.println(capital1.getDescription());
-        System.out.println(ruler1.getDescription());
         System.out.println(army1.getDescription());
+        System.out.println(ruler1.getDescription());
+
+        System.out.println("Message from Redania: ");
+
+        LetterComposite redaniaMessage = new Messenger().messageFromRedania();
+        redaniaMessage.print();
 
         System.out.println(capital2.getDescription());
-        System.out.println(ruler2.getDescription());
         System.out.println(army2.getDescription());
+        System.out.println(ruler2.getDescription());
+
+        System.out.println("Message from Nilfgaard: ");
+
+        LetterComposite nilfgaardMessage = new Messenger().messageFromNilfgaard();
+        nilfgaardMessage.print();
+
+        System.out.println("\n");
 
         System.out.println("***---------***");
 
