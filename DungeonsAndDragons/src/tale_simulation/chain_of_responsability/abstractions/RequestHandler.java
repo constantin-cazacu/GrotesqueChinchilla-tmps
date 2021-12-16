@@ -1,4 +1,6 @@
-package tale_simulation.chain_of_responsability;
+package tale_simulation.chain_of_responsability.abstractions;
+
+import tale_simulation.chain_of_responsability.Request;
 
 public abstract class RequestHandler {
 
