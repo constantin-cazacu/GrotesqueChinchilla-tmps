@@ -6,6 +6,10 @@ import tale_simulation.adapter.HeavyCavalry;
 import tale_simulation.adapter.HorseRider;
 import tale_simulation.builder.*;
 import tale_simulation.builder.enums.*;
+import tale_simulation.chain_of_responsability.KingOfTheWildHunt;
+import tale_simulation.chain_of_responsability.Request;
+import tale_simulation.chain_of_responsability.WildHuntNavigator;
+import tale_simulation.chain_of_responsability.enums.RequestType;
 import tale_simulation.composite.abstractions.LetterComposite;
 import tale_simulation.composite.Messenger;
 import tale_simulation.flyweight.WonderingAlchemistTrader;
@@ -127,6 +131,12 @@ public class FantasyWorld {
         System.out.println(myconid);
         System.out.println(vampire);
 
+        System.out.println("***---------***");
+
+        KingOfTheWildHunt king = new KingOfTheWildHunt();
+        king.makeRequest(new Request(RequestType.PREPARE_NAGLFAR, "prepare the ship, prepare Naglfar, we are heading out!"));
+        king.makeRequest(new Request(RequestType.OPEN_PORTAL, "open a portal to the target's location"));
+        king.makeRequest(new Request(RequestType.READY_THE_HORSES, "Riders! it is TIME!!!"));
 
 
 
